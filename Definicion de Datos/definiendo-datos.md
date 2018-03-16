@@ -1,4 +1,4 @@
-#Definiendo Datos
+# Definiendo Datos
 
 En este capitulo, veremos las siguientes recetas:
 
@@ -13,7 +13,7 @@ En este capitulo, veremos las siguientes recetas:
 
 ---
 
-##Introduccion
+## Introduccion
 
 En el ultimo capitulo, vimos funciones, recursiones, y funciones de alto orden. Este capitulo veremos 
 otro aspecto importante de Haskell. Los tipos de datos en Haskell son muy expresivos y son usados para crear

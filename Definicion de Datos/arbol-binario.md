@@ -105,7 +105,7 @@ stack exec binary-tree-traverse
 	1. El arbol izquierdo es recorrido.
 	2. Entonces, el nodo padre es visitado.
 	3. Entonces, el arbol izquierdo es visitado de nuevo.
-11. El recorrido en amplitud usa dos casos:
+11. El recorrido en profundidad usa dos casos:
 	1. El arbol esta vacio (su valor es *Leaf*). En este caso una lista vacia es retornada.
 	2. El arbol tiene un arbol izquierdo, un valor, un arbol derecho. En este caso recorremos recursivamente por el nodo izquierdo y tomamos el valor del nodo y el resultado de recorrer el nodo derecho. En el ejemplo el orden es **[8,4,9,2,10,5,11,1,12,6,13,3,14,7,15]**
 12. En el recorrido en anchura, todos los nodos del mismo nivel son visitados antes de visitar los nodos del siguiente nivel.
