@@ -1,4 +1,5 @@
 ##Definicion de tipo suma
+
 La suma de tipos son equivalentes a variantes (o uniones en C). Sin embargo, en haskell es mucho mas que eso. Es tambien llamada **tagged union**. El tipo suma mas simple es **Bool**, que puede tener 2 valores **True** y **false**. En esta receta definimos tipos suma y los usamos en nuestros ejemplos.
 
 ##Comenzamos con...
