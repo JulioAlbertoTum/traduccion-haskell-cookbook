@@ -11,15 +11,16 @@ stack new product-type simple
 ```
 ### Pasos a seguir ...
 
-1.Abrir **src/Main.hs** para editar.
-2.Adiciona la definicion de datos para tipos producto:
+1. Abrir **src/Main.hs** para editar.
+
+2. Adiciona la definicion de datos para tipos producto:
 ```haskell
 data Product1 = Product1 Bool deriving Show
 data Product2 = Product2 Bool Bool deriving Show
 data Product3 a = Product3 a Bool deriving Show
 data Product4 a b = Product4 a b deriving Show
 ```
-3.Cambiar la funcion main para usar los tipos producto definidos antes, creamos instancias e imprimimos sus valores 
+3. Cambiar la funcion main para usar los tipos producto definidos antes, creamos instancias e imprimimos sus valores 
 ```haskell
 main :: IO ()
 main = do
@@ -44,7 +45,7 @@ main = do
   putStrLn "Es equivalente a Product 3 en su parametros"
   putStrLn $ show $ (Product4 10 True :: Product4 Int Bool)
 ```
-4.Construimos y ejecutamos el proyecto:
+4. Construimos y ejecutamos el proyecto:
 
 ```bash
 stack build
