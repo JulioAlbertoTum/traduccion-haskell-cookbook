@@ -2,7 +2,8 @@
 
 La suma de tipos son equivalentes a variantes (o uniones en C). Sin embargo, en haskell es mucho mas que eso. Es tambien llamada **tagged union**. El tipo suma mas simple es **Bool**, que puede tener 2 valores **True** y **false**. En esta receta definimos tipos suma y los usamos en nuestros ejemplos.
 
-##Comenzamos con...
+## Comenzamos con...
+
 Creamos uun proyecto llamado sum-type usando el template simple de Stack
 ```bash
 stack new sum-type simple
@@ -49,7 +50,7 @@ main = do
 stack build
 stack exec sum-type
 ```
-###Como funciona...
+### Como funciona...
 
 1. Primero, definimos un tipo de datos *Days*. Que tiene 7 alternativas (*Sunday* a *Saturday*). El tipo *Days* puede tomar hasta 7 valores.
 2. A continuacion, definimos el tipo *Variant*. El tipo *Variant* tiene 5 tipos de argumentos. En el ejemplo usamos *Int, Float, Double, Char, String*. El tipo de dato definido con el constructor *Variant1 hasta Variant5* con un campo para un tipo correspondiente. *Variant0* no tiene un campo. Por tanto el numer de posibles tipos que Variant puede tener es la suma de  todos los posibles valores que cada tipo puede tomar. Adicionalmente , pudemos adicionar un valor para *Variant0*.
