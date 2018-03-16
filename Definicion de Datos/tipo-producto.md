@@ -1,4 +1,4 @@
-##Definiendo un Tipo Producto
+## Definiendo un Tipo Producto
 
 En esta receta veremos tipos producto. Definiremos tipos de datos simples con 2 parametros, y haremos diferentes experimentos con ellos.
 
@@ -51,7 +51,8 @@ stack exec product-type
 ```
 ---
 ###Como Funciona
-1.Definimos **Product1** con un constructor de datos **Product1 :: Bool -> Product1**. Cuantos valores pueden ser construidos por Product1? Como este tiene tipo **Bool** Puede tener solo dos valores **Product1 True** y **Product1 False**. Este es el tipo Producto mas simple que hemos definido.
-2.A continuacion definimos **Product2** que toma dos valores Booleanos. Para este constructor se tiene cuatro valores: **Product2 True True, Product2 True False, Product2 False True, Product2 False False **.(F)
-3.A continuacion creamos el tipo de dato parametrico **Product3** que toma un tipo de dato **a** y tiene un campo adicional de tipo **Bool**. En el ejemplo, construimos una instancia de **Product3 Int** Este tipo tiene 2 campos, uno para el tipo **Int** y otro para el tipo **Bool**. Sabemos que Bool tiene dos posibles valores. Para encontrar el numero de posibilidades para Int, usamos **maxBound y minBound** para conseguir el maximo y minimo numero de valores.
+
+1. Definimos **Product1** con un constructor de datos **Product1 :: Bool -> Product1**. Cuantos valores pueden ser construidos por Product1? Como este tiene tipo **Bool** Puede tener solo dos valores **Product1 True** y **Product1 False**. Este es el tipo Producto mas simple que hemos definido.
+2. A continuacion definimos **Product2** que toma dos valores Booleanos. Para este constructor se tiene cuatro valores: **Product2 True True, Product2 True False, Product2 False True, Product2 False False **.(F)
+3. A continuacion creamos el tipo de dato parametrico **Product3** que toma un tipo de dato **a** y tiene un campo adicional de tipo **Bool**. En el ejemplo, construimos una instancia de **Product3 Int** Este tipo tiene 2 campos, uno para el tipo **Int** y otro para el tipo **Bool**. Sabemos que Bool tiene dos posibles valores. Para encontrar el numero de posibilidades para Int, usamos **maxBound y minBound** para conseguir el maximo y minimo numero de valores.
 4. Para **Product4**, se toman dos argumentos, a y b. En el ejemplo usamos **Int** y **Bool** como tipos de los argumentos . Aqui el numero de posibles valores de **Product4 Int Bool** es la misma que **Product3 Int**.
