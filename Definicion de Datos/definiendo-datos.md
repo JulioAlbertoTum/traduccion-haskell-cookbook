@@ -2,7 +2,7 @@
 
 En este capitulo, veremos las siguientes recetas:
 
-- Definiendo un tipo producto
+- [Definiendo un tipo producto](suma-datos.md)
 - Definiendo un tipo suma
 - Definiendo un arbol binario y recorriendo el mismo
 - Definiendo datos con funciones
