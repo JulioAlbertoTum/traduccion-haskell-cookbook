@@ -2,11 +2,11 @@
 
 En este capitulo, veremos las siguientes recetas:
 
-- [Definiendo un tipo producto](tipo-producto.md)
-- [Definiendo un tipo suma](suma-datos.md)
-- [Definiendo un arbol binario y recorriendo el mismo](arbol-binario.md)
-- [Definiendo datos con funciones](datos-funciones.md)
-- [Usando Maybe](maybe.md)
+- [Definiendo un tipo producto](recetas/tipo-producto.md)
+- [Definiendo un tipo suma](recetas/suma-datos.md)
+- [Definiendo un arbol binario y recorriendo el mismo](recetas/arbol-binario.md)
+- [Definiendo datos con funciones](recetas/datos-funciones.md)
+- [Usando Maybe](recetas/maybe.md)
 - Usando Either
 - Trabajando con clases de tipo
 - Trabajando con Monoides
