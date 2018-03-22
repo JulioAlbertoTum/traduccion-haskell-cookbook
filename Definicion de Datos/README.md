@@ -8,7 +8,7 @@ En este capitulo, veremos las siguientes recetas:
 - [Definiendo datos con funciones](recetas/datos-funciones.md)
 - [Usando Maybe](recetas/maybe.md)
 - [Usando Either](recetas/either.md)
-- Trabajando con clases de tipo
+- [Trabajando con clases de tipo](recetas/tipos-de-clases.md)
 - Trabajando con Monoides
 
 ---
