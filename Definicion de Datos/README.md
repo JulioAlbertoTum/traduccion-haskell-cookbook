@@ -9,7 +9,7 @@ En este capitulo, veremos las siguientes recetas:
 - [Usando Maybe](recetas/maybe.md)
 - [Usando Either](recetas/either.md)
 - [Trabajando con clases de tipo](recetas/tipos-de-clases.md)
-- Trabajando con Monoides
+- [Trabajando con Monoides](recetas/monoides.md)
 
 ---
 
