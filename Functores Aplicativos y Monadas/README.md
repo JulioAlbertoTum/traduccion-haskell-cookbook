@@ -1,7 +1,7 @@
 # Trabajando con Functores, Aplicativos y Monadas
 En este capitulo, veremos las siguientes recetas:
 - [Trabajando con Functores](recetas/trabajando-functores.md)
-- Arbol Binario como Functor
+- [Arbol Binario como Functor](recetas/arbol-binario-functores.md)
 - Trabajando con Aplicativos
 - Arbol Binario como Aplicativo
 - Trabajando con Monadas
