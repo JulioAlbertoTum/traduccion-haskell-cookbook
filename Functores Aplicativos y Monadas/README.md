@@ -3,7 +3,7 @@ En este capitulo, veremos las siguientes recetas:
 - [Trabajando con Functores](recetas/trabajando-functores.md)
 - [Arbol Binario como Functor](recetas/arbol-binario-functores.md)
 - [Trabajando con Aplicativos](recetas/trabajando-aplicativos.md)
-- [Arbol Binario como Aplicativo](recetas/arbol-binario.aplicativos.md)
+- [Arbol Binario como Aplicativo](recetas/arbol-binario-aplicativos.md)
 - Trabajando con Monadas
 - Lista como Monada
 - Escribiendo INI Parser:
